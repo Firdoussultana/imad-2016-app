@@ -68,7 +68,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/aboutme', function (req, res) {
-  res.sendFile(createTemplate(aboutme));
+  res.send(createTemplate(aboutme));
 });
 
 app.get('/edu', function (req, res) {
