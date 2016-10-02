@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles={
-    `aboutme`:{
+    'aboutme':{
     title:'aboutme',
     heading:'aboutme',
     content: `
@@ -28,7 +28,7 @@ var articles={
          My short term goal are getting a job to build my career and my long term goal are being the reason for the growth of the organization.
       </p> `
 },
-    `edu`:{
+    'edu':{
      title:'edu',
     heading:'Education details',
     content: `
