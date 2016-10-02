@@ -90,14 +90,11 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/articleName', function (req, res) {
+app.get('/:articleName', function (req, res) {
     var articleName=req.params.articleName;
   res.send(createTemplate(articles[articleName]));
 });
 
-app.get('/edu', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'edu.html'));
-});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
