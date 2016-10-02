@@ -5,7 +5,8 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var aboutme={
+var article={
+    aboutme:{
     title:'aboutme',
     heading:'aboutme',
     content: `
@@ -26,6 +27,28 @@ var aboutme={
       <p>
          My short term goal are getting a job to build my career and my long term goal are being the reason for the growth of the organization.
       </p> `
+},
+edu:{
+     title:'edu',
+    heading:'Education details',
+    content: `
+      <p>
+         Bachelor of Engineering (2011-2015)<br>
+                Thangavelu Engineering College,	
+                chennai.
+      </p>
+      <p>
+         
+                Anderson day Girls Higher Secondary School (2011)<br>
+                chennai
+      </p>
+      <p>
+         
+                Anderson day Girls Higher Secondary School (2011)<br>
+                chennai
+      </p>`
+    
+}
 };
 
 function createTemplate(data){
