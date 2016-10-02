@@ -5,8 +5,8 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var article={
-    aboutme:{
+var articles={
+    `aboutme`:{
     title:'aboutme',
     heading:'aboutme',
     content: `
@@ -28,7 +28,7 @@ var article={
          My short term goal are getting a job to build my career and my long term goal are being the reason for the growth of the organization.
       </p> `
 },
-edu:{
+    `edu`:{
      title:'edu',
     heading:'Education details',
     content: `
@@ -90,8 +90,9 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/aboutme', function (req, res) {
-  res.send(createTemplate(aboutme));
+app.get('/articleName', function (req, res) {
+    var articleName=req.params.articleName;
+  res.send(createTemplate(articles[articleName]));
 });
 
 app.get('/edu', function (req, res) {
