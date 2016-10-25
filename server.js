@@ -22,7 +22,7 @@ var articles={
               looking forward to an opportunity to develop my skills more.
       </p>
       <p>
-         About my hobbies,I am fond of visiting new places.I like gardening,spending time with my family.
+         About my hobbies,I am fond of visiting new places.I like gardening,spending time with my family members.
       </p>
       <p>
          My short term goal are getting a job to build my career and my long term goal are being the reason for the growth of the organization.
