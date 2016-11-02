@@ -87,27 +87,27 @@ function createTemplate(data){
     </head>
     <body>
         <div class="design">
-            <div>
+        <div>
             <nav>
-    <ol id="menu">
-    <li><a href="http://firdoussultana.imad.hasura-app.io/aboutme">About</a></li>
-    <li><a href="http://firdoussultana.imad.hasura-app.io/edu">Education</a></li>
-    <li><a href="http://firdoussultana.imad.hasura-app.io/interests">Interests</a></li>	
-    </ol>
-   </nav>
-                <a href="/">home</a>
-            </div>
+                <ol id="menu">
+                    <li><a href="/">home</a></li>
+                    <li><a href="http://firdoussultana.imad.hasura-app.io/aboutme">About</a></li>
+                    <li><a href="http://firdoussultana.imad.hasura-app.io/edu">Education</a></li>
+                    <li><a href="http://firdoussultana.imad.hasura-app.io/interests">Interests</a></li>	
+                </ol>
+             </nav>
+        </div>
             <hr>
-            <div>
-                <h2 class="abt">
+        <div>
+            <h2 class="abt">
                  ${heading}
-                </h2>
-            </div>
+            </h2>
+        </div>
             <hr>
-            <div>
+        <div>
              ${content}
-             </div>
-         </div>
+        </div>
+        </div>
     </body>
 </html>
 `;
