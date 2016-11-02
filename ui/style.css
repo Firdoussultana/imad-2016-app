@@ -55,11 +55,19 @@ body {
 }
 #menu li
 {
-	font-family:lucida calligraphy;
-	color:black;
+	font-family:monotype corsiva;
+	color:white;
 	display:inline;
 	text-align:center;
 	padding:12px;
 	text-decoration:none;
 }
-
+a
+{
+    text-decoration:none;
+}
+ul li
+{
+    line-height:20px;
+}
+}
