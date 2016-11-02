@@ -8,7 +8,7 @@ app.use(morgan('combined'));
 var articles={
     'aboutme':{
     title:'aboutme',
-    heading:'aboutme',
+    heading:'About Me',
     content: `
       <p>
          I hold a bachelor degree in computer science and Engineering.I'm passionate about web developement and intend to become a successful developer in near future.I have completed  "web Application Development" course from ACCORD INFOMATRIX .I live in the incredibly diverse and beautiful India.
@@ -46,7 +46,7 @@ var articles={
             Anderson day Girls Higher Secondary School (2011)<br>
                 chennai
         </p>
-        <p><h1>Technical Skills</h1>
+        <p>Technical Skills
             <ul>
                 <li>Sound knowledge in HTML symantic tags, CSS layout,media query</li>
                 <li>Ability to develop and design a simple website</li>
