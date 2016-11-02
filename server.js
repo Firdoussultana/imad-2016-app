@@ -29,7 +29,7 @@ var articles={
 },
     'edu':{
      title:'edu',
-    heading:'Education details',
+    heading:'Education Details',
     content: `
         <p>
             1) Bachelor of Engineering (2011-2015)<br>
