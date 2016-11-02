@@ -32,18 +32,18 @@ var articles={
     heading:'Education details',
     content: `
         <p>
-            Bachelor of Engineering (2011-2015)<br>
+            1) Bachelor of Engineering (2011-2015)<br>
                 Thangavelu Engineering College,	
                 chennai.
         </p>
         <p>
          
-            Anderson day Girls Higher Secondary School (2011)<br>
+            2) Anderson day Girls Higher Secondary School (2011)<br>
                 chennai
         </p>
         <p>
          
-            Anderson day Girls Higher Secondary School (2011)<br>
+            3) Anderson day Girls Higher Secondary School (2009)<br>
                 chennai
         </p>
         `
