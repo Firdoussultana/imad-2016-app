@@ -88,6 +88,13 @@ function createTemplate(data){
     <body>
         <div class="design">
             <div>
+            <nav>
+    <ol id="menu">
+    <li><a href="http://firdoussultana.imad.hasura-app.io/aboutme">About</a></li>
+    <li><a href="http://firdoussultana.imad.hasura-app.io/edu">Education</a></li>
+    <li><a href="http://firdoussultana.imad.hasura-app.io/interests">Interests</a></li>	
+    </ol>
+   </nav>
                 <a href="/">home</a>
             </div>
             <hr>
