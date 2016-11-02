@@ -11,8 +11,7 @@ var articles={
     heading:'aboutme',
     content: `
       <p>
-         I hold a bachelor degree in computer science Graduated from THANGAVELU ENGINEERING COLLEGE in the year of 2015.I have done
-         my schooling in ANDERSON DAY GIRLS SCHOOL,CHENNAI.
+         I hold a bachelor degree in computer science and Engineering.I'm passionate about web developement and intend to become a successful developer in near future.I have completed  "web Application Development" course from ACCORD INFOMATRIX .I live in the incredibly diverse and beautiful India.
       </p>
       <p>
          As per the additional qualification I am pursuing a "web Application Development" course in ACCORD INFOMATRIX .
@@ -46,7 +45,15 @@ var articles={
          
                 Anderson day Girls Higher Secondary School (2011)<br>
                 chennai
-      </p>`
+      </p>
+      <p><h1>Technical Skills</h1>
+      <p><ul>
+<li>Sound knowledge in HTML symantic tags, CSS layout,media query</li>
+<li>Ability to develop and design a simple website</li>
+<li>Basic knowledge in MySql (intermediate)</li>
+<li>Basic knowledge in PHP (intermediate)</li>
+<li>Basic concepts of OOPS</li>
+</ul></p>`
     
 }
 };
