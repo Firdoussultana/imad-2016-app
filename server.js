@@ -50,7 +50,7 @@ var articles={
 },
     'interests':{
      title:'interests',
-    heading:'my interests',
+    heading:'My Interests',
     content:
         `<p>
             <ul>
