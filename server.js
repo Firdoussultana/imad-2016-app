@@ -46,15 +46,7 @@ var articles={
             Anderson day Girls Higher Secondary School (2011)<br>
                 chennai
         </p>
-        <p>Technical Skills
-            <ul>
-                <li>Sound knowledge in HTML symantic tags, CSS layout,media query</li>
-                <li>Ability to develop and design a simple website</li>
-                <li>Basic knowledge in MySql (intermediate)</li>
-                <li>Basic knowledge in PHP (intermediate)</li>
-                <li>Basic concepts of OOPS</li>
-            </ul>
-        </p>`
+        `
 },
     'interests':{
      title:'interests',
