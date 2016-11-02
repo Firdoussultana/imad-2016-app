@@ -31,43 +31,45 @@ var articles={
      title:'edu',
     heading:'Education details',
     content: `
-      <p>
-         Bachelor of Engineering (2011-2015)<br>
+        <p>
+            Bachelor of Engineering (2011-2015)<br>
                 Thangavelu Engineering College,	
                 chennai.
-      </p>
-      <p>
+        </p>
+        <p>
          
-                Anderson day Girls Higher Secondary School (2011)<br>
+            Anderson day Girls Higher Secondary School (2011)<br>
                 chennai
-      </p>
-      <p>
+        </p>
+        <p>
          
-                Anderson day Girls Higher Secondary School (2011)<br>
+            Anderson day Girls Higher Secondary School (2011)<br>
                 chennai
-      </p>
-      <p><h1>Technical Skills</h1>
-      <p><ul>
-<li>Sound knowledge in HTML symantic tags, CSS layout,media query</li>
-<li>Ability to develop and design a simple website</li>
-<li>Basic knowledge in MySql (intermediate)</li>
-<li>Basic knowledge in PHP (intermediate)</li>
-<li>Basic concepts of OOPS</li>
-</ul></p>`
-    
+        </p>
+        <p><h1>Technical Skills</h1>
+            <ul>
+                <li>Sound knowledge in HTML symantic tags, CSS layout,media query</li>
+                <li>Ability to develop and design a simple website</li>
+                <li>Basic knowledge in MySql (intermediate)</li>
+                <li>Basic knowledge in PHP (intermediate)</li>
+                <li>Basic concepts of OOPS</li>
+            </ul>
+        </p>`
 },
-'interests':{
+    'interests':{
      title:'interests',
     heading:'my interests',
-    content: `<p>
-    <ul>
-     <li>Books : 1)The Story of My Life 2)Wings of Fire 3)shakespeare's plays</li>
- <li>Food : 1)Indian 2)Turkish and middle Eastern 3)North-Indian desserts</li>
- <li>Movie : 1)Enchanted 2)Clique 3)Mahek</li>
- <li>Personality : 1)Dr. APJ Abdul kalam 2)Kalpana Chawla  3)MS Dhoni </li>
- <li>Place : 1)Chennai, 2)Agra 3)Jaipur</li>
- <li>Music Artist : 1)AR Rahman 2)Maher Zain 3)Taylor Swift</li>
- </ul>`}
+    content:
+        `<p>
+            <ul>
+             <li>Books : 1)The Story of My Life 2)Wings of Fire 3)shakespeare's plays</li>
+             <li>Food : 1)Indian 2)Turkish and middle Eastern 3)North-Indian desserts</li>
+             <li>Movie : 1)Enchanted 2)Clique 3)Mahek</li>
+             <li>Personality : 1)Dr. APJ Abdul kalam 2)Kalpana Chawla  3)MS Dhoni </li>
+             <li>Place : 1)Chennai, 2)Agra 3)Jaipur</li>
+             <li>Music Artist : 1)AR Rahman 2)Maher Zain 3)Taylor Swift</li>
+            </ul>`
+}
 };
 
 function createTemplate(data){
