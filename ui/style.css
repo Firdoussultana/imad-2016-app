@@ -37,3 +37,28 @@ body {
     color:#23847b;
     font-family:impact;
     }
+    
+    nav
+{
+    padding:15px;
+	height:50px;
+	/* width:850px; */
+	/* box-shadow:1px 5px 10px black; */
+	margin:10px;
+	 outline:1px solid green;
+ margin-left:150px; 
+	}
+#menu 
+{
+	padding:0px;
+	margin-top:0px;
+}
+#menu li
+{
+	font-family:lucida calligraphy;
+	color:black;
+	display:inline;
+	margin-left:27px;
+	padding:12px;
+
+}
