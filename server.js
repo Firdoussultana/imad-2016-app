@@ -96,7 +96,7 @@ function createTemplate(data){
             </h2>
         </div>
             <hr>
-        <div>
+        <div class="con">
              ${content}
         </div>
         </div>
