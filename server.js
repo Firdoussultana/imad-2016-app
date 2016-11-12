@@ -13,52 +13,6 @@ var config = {
 var app = express();
 app.use(morgan('combined'));
 
-var articles={
-    'aboutme':{
-    title:'aboutme',
-    heading:'About Me',
-    content: `
-      <p>
-         I hold a bachelor degree in computer science and Engineering.I'm passionate about web developement and intend to become a successful developer in near future.I have completed  "web Application Development" course from ACCORD INFOMATRIX .I live in the incredibly diverse and beautiful India.
-      </p>
-      <p>
-         As per the additional qualification I am pursuing a "web Application Development" course in ACCORD INFOMATRIX .
-      </p>
-      <p>
-         My strength lies in my positive behavior.I am very detail oriented person,I pay attention to every aspect of the task assigned.I   am very dedicated towards my work and I am
-              looking forward to an opportunity to develop my skills more.
-      </p>
-      <p>
-         About my hobbies,I am fond of visiting new places.I like gardening,spending time with my family members.
-      </p>
-      <p>
-         My short term goal are getting a job to build my career and my long term goal are being the reason for the growth of the organization.
-      </p> `
-},
-    'edu':{
-     title:'edu',
-    heading:'Education Details',
-    content: `
-        <p>
-            1) Bachelor of Engineering (2011-2015)<br>
-                Thangavelu Engineering College,	
-                chennai.
-        </p>
-        <p>
-         
-            2) Anderson day Girls Higher Secondary School (2011)<br>
-                chennai
-        </p>
-        <p>
-         
-            3) Anderson day Girls Higher Secondary School (2009)<br>
-                chennai
-        </p>
-        `
-},
-   
-};
-
 var pool = new Pool(config);
 app.get('/test-db',function(req,res){
   pool.query('SELECT * FROM test',function(err,result){
