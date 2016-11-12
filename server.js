@@ -105,9 +105,9 @@ function createTemplate(data){
             <nav>
                 <ol id="menu">
                     <li><a href="/">home</a></li>
-                    <li><a href="http://firdoussultana.imad.hasura-app.io/aboutme">About</a></li>
-                    <li><a href="http://firdoussultana.imad.hasura-app.io/edu">Education</a></li>
-                    <li><a href="http://firdoussultana.imad.hasura-app.io/interests">Interests</a></li>	
+                    <li><a href="http://firdoussultana.imad.hasura-app.io/articles/aboutme">About</a></li>
+                    <li><a href="http://firdoussultana.imad.hasura-app.io/articles/edu">Education</a></li>
+                    <li><a href="http://firdoussultana.imad.hasura-app.io/articles/interests">Interests</a></li>	
                 </ol>
              </nav>
         </div>
