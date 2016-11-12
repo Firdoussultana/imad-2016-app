@@ -56,20 +56,7 @@ var articles={
         </p>
         `
 },
-    'interests':{
-     title:'interests',
-    heading:'My Interests',
-    content:
-        `<p>
-            <ul>
-             <li>Books : 1)The Story of My Life 2)Wings of Fire 3)shakespeare's plays</li>
-             <li>Food : 1)Indian 2)Turkish and middle Eastern 3)North-Indian desserts</li>
-             <li>Movie : 1)Enchanted 2)Clique 3)Mahek</li>
-             <li>Personality : 1)Dr. APJ Abdul kalam 2)Kalpana Chawla  3)MS Dhoni </li>
-             <li>Place : 1)Chennai, 2)Agra 3)Jaipur</li>
-             <li>Music Artist : 1)AR Rahman 2)Maher Zain 3)Taylor Swift</li>
-            </ul>`
-}
+   
 };
 
 var pool = new Pool(config);
